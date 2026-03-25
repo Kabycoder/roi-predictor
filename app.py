@@ -16,7 +16,7 @@ from styles import inject
 
 # ── PAGE CONFIG ────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Marketing Campaign Analysis",
+    page_title="Marketing Campaign Analyser",
     page_icon="◈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -162,7 +162,7 @@ def sidebar():
             Marketing Campaign<br>
             <span style="font-size:1.2rem;background:linear-gradient(90deg,#00e5ff,#9b59ff);
                         -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-                        background-clip:text;">Analysis</span>
+                        background-clip:text;">Analyser</span>
           </div>
         </div>
         <hr style="border-color:#1c2a3e;margin:.3rem 0 1rem">
