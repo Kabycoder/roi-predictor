@@ -16,7 +16,7 @@ from styles import inject
 
 # ── PAGE CONFIG ────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Marketing Compaign Analysis",
+    page_title="Marketing Campaign Analysis",
     page_icon="◈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -28,7 +28,7 @@ PL = dict(
     paper_bgcolor="rgba(0,0,0,0)",
     plot_bgcolor="rgba(0,0,0,0)",
     font=dict(family="DM Mono, Courier New, monospace", color="#7a90b0", size=11),
-    xaxis=dict(gridcolor="#1353ae", linecolor="#1c2a3e", zerolinecolor="#1c2a3e"),
+    xaxis=dict(gridcolor="#1c2a3e", linecolor="#1c2a3e", zerolinecolor="#1c2a3e"),
     yaxis=dict(gridcolor="#1c2a3e", linecolor="#1c2a3e", zerolinecolor="#1c2a3e"),
     margin=dict(l=10, r=10, t=35, b=10),
     legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(size=11)),
@@ -159,11 +159,10 @@ def sidebar():
                       text-transform:uppercase;color:#3a4e65;margin-bottom:.4rem">Platform</div>
           <div style="font-family:'Times New Roman',Georgia,serif;font-size:1.5rem;
                       font-weight:900;color:#f0f4ff;line-height:1.15">
-            ROI Intelligence
-            <div style="font-family:'DM Mono',monospace;font-size:.8rem;font-weight:400;
-                        background:linear-gradient(90deg,#00e5ff,#9b59ff);
+            Marketing Campaign<br>
+            <span style="font-size:1.2rem;background:linear-gradient(90deg,#00e5ff,#9b59ff);
                         -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-                        background-clip:text;margin-top:.1rem">◈ Neural Engine</div>
+                        background-clip:text;">Analysis</span>
           </div>
         </div>
         <hr style="border-color:#1c2a3e;margin:.3rem 0 1rem">
