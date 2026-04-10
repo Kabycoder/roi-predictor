@@ -45,10 +45,12 @@ html, body,
 }
 
 /* ── HIDE STREAMLIT CHROME ── */
-#MainMenu, footer, header,
+#MainMenu, footer,
 [data-testid="stToolbar"],
 [data-testid="stDecoration"],
 [data-testid="stSidebarNav"] { display: none !important; }
+/* header is NOT hidden here — hiding it removes the sidebar toggle button */
+header[data-testid="stHeader"] { background: transparent !important; }
 
 /* ── SIDEBAR ── */
 [data-testid="stSidebar"] {
